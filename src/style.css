@@ -1,0 +1,32 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  max-width: 60%;
+}
+.box {
+  width: 200px;
+  height: 200px;
+}
+.box:nth-child(1) {
+  background-color: red;
+  position: relative;
+}
+.box:nth-child(2) {
+  background-color: blue;
+  position: relative;
+  top: 125px;
+  right: 75px;
+  z-index: 1;
+}
+.box:nth-child(3) {
+  background-color: green;
+  position: relative;
+  top: 250px;
+  right: 150px;
+}
